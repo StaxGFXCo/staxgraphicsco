@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StaxGraphicsCo.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #000;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      position: relative;
+      height: 100vh;
+      background: url('stax_site_assets/Animation.gif') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    header img {
+      width: 200px;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: gold;
+      margin: 0;
+    }
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .gold {
+      color: gold;
+    }
+    footer {
+      background-color: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea, button {
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      background-color: gold;
+      color: black;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="stax_site_assets/STAX_BIG_S_LOGO.png" alt="Stax Logo" />
+    <h1>Design. Detail. Dominate.</h1>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="gold">About StaxGraphicsCo.</h2>
+    <p>We specialize in bike graphics, logos, and custom clothing designs. A brand built on creativity and precision to elevate your visual presence.</p>
+  </section>
+
+  <section id="services">
+    <h2 class="gold">Our Services</h2>
+    <ul>
+      <li>Custom Bike Graphics</li>
+      <li>Logo Design</li>
+      <li>Clothing Design & Merch</li>
+      <li>Brand Identity Packages</li>
+    </ul>
+  </section>
+
+  <section id="shop">
+    <h2 class="gold">Our Products</h2>
+    <p>Coming soon: Shop exclusive graphic kits, merch drops, and more.</p>
+    <img src="stax_site_assets/STAX_GFX_BIG.png" alt="Product Example" width="100%">
+  </section>
+
+  <section id="contact">
+    <h2 class="gold">Contact & Booking</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="What do you need?" rows="5" required></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 StaxGraphicsCo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
